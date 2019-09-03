@@ -1,0 +1,8 @@
+#!/bin/bash
+
+message='http_status=200 message="foo has happened" application_name=my_awesome_app transaction_id=123456 level=info'
+
+while true; do
+	echo $message
+	sleep 5
+done
